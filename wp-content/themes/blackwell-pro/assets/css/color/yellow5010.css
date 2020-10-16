@@ -1,0 +1,188 @@
+::selection {
+    background: #000000;
+    color:#fff;
+}
+#menu li.current-menu-item a, #menu li.current_page_item a , #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover{
+    border-left:9px solid #000000;
+}
+#menu li.current-menu-item a, #menu li.current_page_item a , #menu li.current-menu-parent a, #menu li.current_page_parent a, #menu li a.selected, #menu li a:hover{
+    border-left:9px solid #000000;
+}
+.blackwell_slider .container {
+    background: rgba(6, 41, 73, 0.6);
+}
+.team-content .team-item .mask {
+    background-color: rgba(6, 41, 73, 0.6);
+}
+.slides-navigation a.prev {
+    left: 0;
+    background: rgba(6, 41, 73, 0.6) url(../../images/color/images/right_slide.png) center no-repeat;
+}
+.slides-navigation a.next {
+    left: 57px;
+    background: rgba(6, 41, 73, 0.6) url(../../images/color/images/left_slide.png) center no-repeat;
+}
+.feature_content .feature_content_inner p.font_icon {
+    background: #000000;
+}
+.feature_content .feature_content_inner p.font_icon:before {
+    border-bottom: 20px solid #000000;
+}
+.feature_content .feature_content_inner p.font_icon:after {
+    border-top: 20px solid #000000;
+}
+.works_content {
+    background: #000000;
+}
+.team-content .team-item {
+    border: 3px solid #000000;
+}
+.team-content .team-item span {
+    color: #000000;
+}
+.team-content .team-item span.team_share {
+    background: #000000;
+}
+.testimonial_image a {
+    color: #000000;
+}
+.testimonial_content{
+    background:#000000;
+}
+.testimonial_content .testimonial_tip{
+    border-right: 16px solid #000000;
+}
+.portfolio_wrapper ul li .post_thumbnil span.image_link {
+    background: #000000;
+}
+.portfolio_wrapper ul li img {
+    border: 5px solid #000000;
+}
+.client_wrapper {
+    background: #000000;
+}
+.client_wrapper  .flex-direction-nav .flex-prev  {
+    background: #6aaca8 url(../../images/color/images/right_slide.png) no-repeat center;
+}
+.client_wrapper  .flex-direction-nav .flex-next{
+    background: #0d395c url(../../images/color/images/left_slide.png) no-repeat center;
+}
+.home_blog_content .post .post_thumbnil .post_format {
+    background: #000000;
+}
+.home_blog_content .post:hover .post_content_bottom{
+    background:#000000;
+}
+.contact_wrapper {
+    background: #000000;
+}
+.contact-container form input[type='text'], .contact-container form input[type='email'], .contact-container form input[type='textarea'] {
+    background: #0d385c;
+}
+.formfield textarea#commentsText {
+    background:#0d395c;
+}
+.contact-map h1 {
+    background: #000000;
+}
+.sidebar h3 span.line {
+    border-bottom: 1px solid #000000;
+}
+.sidebar ul li a:hover {
+    color: #000000;
+}
+.content-bar .post .post_title a:hover {
+    color: #000000;
+}
+.content-bar .post a.read_more {
+    background-color: #000000;
+}
+.content-bar .post a.read_more:hover {
+    background-color: #6aaca8;
+    color: #fff;
+}
+.content-bar .post .post_meta li.format_sign span.post_format{
+    background:#000000;
+}
+.post.single blockquote {
+    background: #000000 url(../../images/color/images/blockqoute_post.png) 16px 21px no-repeat;
+}
+ol.commentlist li .reply a {
+    background: url(../../images/color/images/reply-yellow.png) center right no-repeat;
+}
+#respond input[type='text'], #respond input[type='email'], #respond textarea#comment {
+    background:#000000;
+    border:1px solid #6aaca8;
+}
+.page-content .gallery .thumbnail li img {
+    border: 4px solid #000000;
+}
+.page-content .content-bar .gallery .thumbnail li img {
+    border: 4px solid #000000;
+}
+#wp-calendar caption {
+    background: #6aaca8;
+    border: 1px solid #000000;
+}
+#wp-calendar a {
+    font-weight: bold;
+    color: #000000;
+}
+th{
+    background: #000000;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover,
+a:focus,
+a:active{
+    text-decoration: none;
+    color: #6aaca8;
+}
+.sidebar ul li:before {
+    color: #000000;
+}
+.sidebar ul>li:hover>a{
+    color: #0c2046;
+}
+.searchform input[type="text"] {
+    border: 2px solid #000000;
+    border-right: none;
+}
+button#searchsubmit {
+    border: 2px solid #000000;
+    border-left: none;
+    color: #000000;
+}
+.widget_area a:hover, .widget_area li a:hover, .widget_area ul.tabs li a:hover, .widget_area .tagcloud a:hover,
+#commentform a{
+    color: #000000;
+}
+#commentform input#submit {
+    background: #000000;
+}
+@media only screen and (max-width: 768px){
+    .testimonial_content .testimonial_tip {
+        border-bottom: 16px solid #000000;
+    }
+}
+/*Gallery CSS*/
+.content-bar .gallery .thumbnail img, .fullwidth .gallery .thumbnail img{
+    border:4px solid #0b133f;
+}
+/*Menu scrolling bar*/
+.left_panal::-webkit-scrollbar-thumb {
+    background: #6aaca8; 
+}
+.left_panal::-webkit-scrollbar-thumb:window-inactive {
+    background: #000000; 
+}
+#owl-client .item{
+    background:#000000;
+}
+.client_wrapper  .customNavigation .prev,
+.client_wrapper  .customNavigation .next{
+    background-color: #000000;
+}

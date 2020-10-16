@@ -8,6 +8,11 @@
 <link rel="profile" href="https://gmpg.org/xfn/11" />
 <link rel="pingback" href="xmlrpc.php" />
 <title>KrystalFlux</title>
+<meta charset="UTF-8">
+  <meta name="description" content="Specializing In The Generation Of New Mineral Projects With World Class Potential">
+  <meta name="keywords" content="Minerals, Copper, Tantalite, Gold, Quartz , Marble, Tin, Scrape">
+  <meta name="author" content="krystalflux">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name='robots' content='noindex,follow' />
 <link href="css/rvslider.min.css" rel="stylesheet">
 <link rel='dns-prefetch' href='http://www.google.com/' />
@@ -97,9 +102,9 @@ var menu_obj = {"status":"open","position":"left"};
 <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 <style></style><link rel='stylesheet' id='wp-color-picker-css' href='wp-admin/css/color-picker.min5010.css?ver=4.9.8' type='text/css' media='all' />
 </head>
-<body class="home blog woocommerce-no-js">
+<body onload="clickpanel()" class="home blog woocommerce-no-js">
 <div class="wrapper" id="top">
-<div id="push_panel" class="single-page-nav panel" role="navigation">
+<div onload="clickpanel()"  id="push_panel" class="single-page-nav panel" role="navigation" >
 <div class="left_panal">
 <div class="logo">
 <a href="#"><h1 style="color: white; font-weight: bold;">KRYSTALFLUX</h1><br><a target="_blank" href="mailto:info@krystalflux.com"><span>info@krystalflux.com</span></a>
@@ -119,7 +124,8 @@ var menu_obj = {"status":"open","position":"left"};
 </ul></div>
 </div>
 </div>
-<button class="menu-link"></button>
+<button id="panel-button" class="menu-link"></button>
+
 </div>
 <div class="wrap push">
 <div class="header_wrapper">
@@ -411,7 +417,7 @@ Promoting Sustainable Community Development </p>
 <a><div class="mask"></div></a></div>
  <a><h4>Williams K W</h4></a>
 <span>Director</span>
-<p>He has extensive experience in public company administration, finance, government and legislative policy, media relationship strategies and project management.</p>
+<p>We have been in the mining industry for more than 26 years. Studied in University of Russia Economics, Germany Mining and Petroleum. Born in Congo Bukav raised in Uganda, Kasese.</p>
 <div class="social_icon_team">
 <ul>
 <li><a href="#" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
@@ -899,6 +905,7 @@ This approach will allow mineral planning authorities to highlight areas where p
 </div>
 </div>
 </div>
+
 <script type="ef69b2eb95403c8e9c12b20a-text/javascript" src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
 <script type="ef69b2eb95403c8e9c12b20a-text/javascript">
 /* <![CDATA[ */
@@ -934,6 +941,16 @@ var wc_cart_fragments_params = {"ajax_url":"\/wptheme\/mineral-extraction-wordpr
 	jQuery(function($){
 		$('.rvs-container').rvslider();
 	});
+</script>
+<script>
+setTimeout(() => {
+	  document.querySelector('#panel-button')[0].click();
+	}, 2000);
+function clickpanel() {
+	setTimeout(() => {
+	  document.querySelector('#panel-button')[0].click();
+	}, 5000);
+}
 </script>
 </body>
 

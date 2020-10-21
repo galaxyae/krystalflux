@@ -213,20 +213,25 @@ a i{
 
 /* Slides */
 .slide{
-    background-size:cover;
+    background-size: contain;
+    object-fit: cover;
     background-position: bottom;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+    width: 100%;
 }
 .slide.one{
+    width: 100%;
     background-image:url("../assets/images/all mines and minerals/IMG-20201008-WA0067.jpg");
 }
 .slide.two{
-    background-image:url("../assets/images/all mines and minerals/IMG-20201008-WA0047.jpg");
+    background-image:url("../assets/images/all mines and minerals/IMG-20201018-WA0003.jpg");
 }
 .slide.three{
-    background-image:url("../assets/images/all mines and minerals/IMG-20201008-WA0090.jpg");
+    background-image:url("../assets/images/all mines and minerals/IMG-20201008-WA0024.jpg");
 }
 .slide.four{
-    background-image:url("../assets/images/all mines and minerals/IMG-20201008-WA0046.jpg");
+    background-image:url("../assets/images/all mines and minerals/IMG-20201008-WA0074.jpg");
 }
 .slide.five{
     background-image:url("../assets/images/all mines and minerals/IMG-20201008-WA0089.jpg");
